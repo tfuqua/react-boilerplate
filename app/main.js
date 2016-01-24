@@ -1,5 +1,5 @@
-'use strict';
+import React from 'react';
+import ReactDOM from 'react-dom';
+import HelloWorld from './component.jsx';
 
-var component = require('./component.js');
-
-document.body.appendChild(component());
+ReactDOM.render( <HelloWorld/> , document.getElementById('app'));
